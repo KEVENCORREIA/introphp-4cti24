@@ -1,20 +1,23 @@
-<?php
+<?php 
+    
+    $a = 24;
+    $b = 16;
+    
+    $c= $a + $b;
+    echo '<br>A soma é ' . $c;
 
-$a = 24;
-$b = 16;
+    $d = $a * $b;
+    echo '<br>A multiplicação é ' . $d;
 
-$c= $a + $b;  //soma
-echo '<br> A soma é ' . $c;
+    
+    $e = $a - $b;
+    echo '<br>A subtracao é ' . $e;
 
-$d = $a * $b;
-echo '<br> a multiplicacao é ' . $d;
-
-$d = $a / $b;
-echo '<br> a divisão é ' . $d;
- 
-$d = $a - $b;
-echo '<br> a subtracao é ' . $d;
-
-
-
+    
+    $f = $a / $b;
+    echo '<br>A divisao é ' . $f;
+    
+    
+    $g = $a % $b;
+    echo '<br>O módulo é ' . $g;
 ?>
